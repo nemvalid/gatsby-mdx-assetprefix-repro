@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-mdx-asset-prefix-link-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-mdx": "^5.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
