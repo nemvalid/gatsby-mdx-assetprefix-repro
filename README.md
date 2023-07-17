@@ -14,7 +14,7 @@ Internal link to page 2: [link to page 2](/page-2/)
 
 ## Issue
 
-If you specify an `assetPath` in your gatsby config and build the site with `gatsby build --prefix-paths` then the link above will not work any more.  
+If you specify an `assetPrefix` in your gatsby config and build the site with `gatsby build --prefix-paths` then the link above will not work any more.  
 The link href will become `https://cdn.example.com/page-2/` instead of `/page-2`.  
 Please note that the `assetPrefix` is for assets only, it's not the site url.  
 See the relevant pages in the official Gatsby documentation for [asset prefix](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/asset-prefix/) and [path prefix](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/path-prefix/).
