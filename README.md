@@ -22,7 +22,9 @@ See the relevant pages in the official Gatsby documentation for [asset prefix](h
 **TLDR;**  
 Asset prefix should only be applied to asset urls, it shouldn't affect link urls in the MDX page content.  
 See the documentation for the `pathPrefix` node api helper ([https://www.gatsbyjs.com/docs/reference/config-files/node-api-helpers/#pathPrefix](https://www.gatsbyjs.com/docs/reference/config-files/node-api-helpers/#pathPrefix)):
-<blockquote>Use to prefix resources URLs. pathPrefix will be either empty string or path that starts with slash and doesn’t end with slash. pathPrefix also becomes `<assetPrefix>/<pathPrefix>` when you pass both assetPrefix and pathPrefix in your gatsby-config.js.</blockquote>
+<blockquote>
+    Use to prefix resources URLs. pathPrefix will be either empty string or path that starts with slash and doesn’t end with slash. pathPrefix also becomes &lt;assetPrefix&gt;/&lt;pathPrefix&gt; when you pass both assetPrefix and pathPrefix in your gatsby-config.js.
+    </blockquote>
 
 ## Details
 
